@@ -1,28 +1,32 @@
-// arreglo de temperaturas celsius
-const celsiusTemperatures = [33.6, 12.34];
+(() => {
 
-// Dirección ip del servidor
-const serverIp = '123.123.123.123';
+    // arreglo de temperaturas celsius
+    const celsiusTemperatures = [33.6, 12.34];
 
-// Listado de usuarios
-const users = [
-    { id: 1, email: 'fernando@google.com' },
-    { id: 2, email: 'juan@google.com' },
-    { id: 3, email: 'melissa@google.com' }
-];
+    // Dirección ip del servidor
+    const serverIp = '123.123.123.123';
 
-// Listado de emails de los usuarios
-const userEmails = users.map( user => user.email );
+    // Listado de usuarios
+    const users = [
+        { id: 1, email: 'fernando@google.com' },
+        { id: 2, email: 'juan@google.com' },
+        { id: 3, email: 'melissa@google.com' }
+    ];
 
-// Variables booleanas de un video juego
-const canJump = false;
-const canRun = true;
-const hasNoItems = true;
-const isLoading = false;
+    // Listado de emails de los usuarios
+    const userEmails = users.map( u => u.email );
 
-// tiempo inicial
-const startTime = new Date().getTime();
+    // Variables booleanas de un video juego
+    const canJump = false;
+    const canRun = true;
+    const hasNoItems = true;
+    const isLoading = false;
 
-// Tiempo al final
-const elapsedTime = new Date().getTime() - startTime;
+    // Otros ejercicios
+    // tiempo inicial
+    const startTime = new Date().getTime();
 
+    // Tiempo al final
+    const elapsedTime = new Date().getTime() - startTime;
+
+})();
